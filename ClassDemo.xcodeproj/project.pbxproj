@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		78F4DC361CCBDD7F00646112 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F4DC351CCBDD7F00646112 /* main.m */; };
+		78F4DC3E1CCBDE7600646112 /* DAGPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F4DC3D1CCBDE7600646112 /* DAGPerson.m */; };
+		78F4DC411CCBF24500646112 /* DAGParty.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F4DC401CCBF24500646112 /* DAGParty.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		78F4DC321CCBDD7F00646112 /* ClassDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ClassDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		78F4DC351CCBDD7F00646112 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78F4DC3C1CCBDE7600646112 /* DAGPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAGPerson.h; sourceTree = "<group>"; };
+		78F4DC3D1CCBDE7600646112 /* DAGPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAGPerson.m; sourceTree = "<group>"; };
+		78F4DC3F1CCBF24500646112 /* DAGParty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAGParty.h; sourceTree = "<group>"; };
+		78F4DC401CCBF24500646112 /* DAGParty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAGParty.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				78F4DC351CCBDD7F00646112 /* main.m */,
+				78F4DC3C1CCBDE7600646112 /* DAGPerson.h */,
+				78F4DC3D1CCBDE7600646112 /* DAGPerson.m */,
+				78F4DC3F1CCBF24500646112 /* DAGParty.h */,
+				78F4DC401CCBF24500646112 /* DAGParty.m */,
 			);
 			path = ClassDemo;
 			sourceTree = "<group>";
@@ -119,6 +129,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				78F4DC361CCBDD7F00646112 /* main.m in Sources */,
+				78F4DC3E1CCBDE7600646112 /* DAGPerson.m in Sources */,
+				78F4DC411CCBF24500646112 /* DAGParty.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
